@@ -1,16 +1,15 @@
 <?php
 
-$domain = 'https://ja-travel-blora.web.id/';
-$brand = 'J A Travel Blora';
+$domain = 'http://localhost/travel/sadewa-trans.web.id/';
+$brand = 'Sadewa Trans';
 $logo = 'src/img/logo.jpg';
 $logoPanjang = 'src/img/logo.jpg';
-$title = $brand . " - Travel Blora Terbaik No. 1";
-$desc = $brand . " menawarkan jasa travel Blora dengan harga murah dan jadwal 24 jam";
-$telp = '0822-2995-9600';
-$telp2 = '0822-4108-1699';
-$alamat = '29HW+X29 Tutup, Kabupaten Blora, Jawa Tengah';
-$iframe = 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3960.3321167483327!2d111.39252737499696!3d-6.970089093030556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwNTgnMTIuMyJTIDExMcKwMjMnNDIuNCJF!5e0!3m2!1sid!2sid!4v1747235737232!5m2!1sid!2sid';
-
+$title = $brand . " Travel Jawa Tengah Terbaik No. 1";
+$desc = $brand . " menawarkan jasa travel dengan harga murah dan jadwal 24 jam";
+$telp = '0882-0068-91597';
+// $telp2 = '0822-4108-1699';
+$alamat = 'Kedunggading, Kabupaten Kendal, Jawa Tengah';
+$iframe = 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3960.0656667972175!2d110.11031557499723!3d-7.001549692999713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMDAnMDUuNiJTIDExMMKwMDYnNDYuNCJF!5e0!3m2!1sid!2sid!4v1747653996542!5m2!1sid!2sid';
 
 function res_telp($telp)
 {
@@ -49,17 +48,22 @@ $menu = [
 
 
 $rute = [
-  'Travel Blora Semarang',
-  'Travel Blora Magelang',
-  'Travel Blora Salatiga',
-  'Travel Blora Solo',
-  'Travel Blora Jogja',
+  'Travel Solo Indramayu',
+  'Travel Solo Cirebon',
 
-  'Travel Semarang Blora',
-  'Travel Magelang Blora',
-  'Travel Salatiga Blora',
-  'Travel Solo Blora',
-  'Travel Jogja Blora',
+  'Travel Semarang Indramayu',
+  'Travel Semarang Cirebon',
+
+  'Travel Semarang Purwokerto',
+  'Travel Semarang Purbalingga',
+  'Travel Semarang Pemalang',
+  'Travel Semarang Tegal',
+  'Travel Semarang Pekalongan',
+  'Travel Semarang Temanggung',
+  'Travel Semarang Wonosobo',
+  'Travel Semarang Banjarnegara',
+  'Travel Semarang Kendal',
+  'Travel Semarang Temanggung',
 ];
 
 $kota = [
@@ -87,7 +91,7 @@ $galeri = [
   '3.jpg',
   '4.jpg',
   '5.jpg',
-  '6.jpg',
+  'hiace.jpg',
 ];
 
 ?>
