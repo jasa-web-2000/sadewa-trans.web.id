@@ -1,9 +1,9 @@
 <?php
 
-$domain = 'http://localhost/travel/sadewa-trans.web.id/';
+$domain = 'https://jasa-web-2000.github.io/sadewa-trans.web.id/';
 $brand = 'Sadewa Trans';
-$logo = 'src/img/logo.jpg';
-$logoPanjang = 'src/img/logo.jpg';
+$logo = 'src/img/sadewa.jpg';
+$logoPanjang = 'src/img/sadewa.png';
 $title = $brand . " Travel Jawa Tengah Terbaik No. 1";
 $desc = $brand . " menawarkan jasa travel dengan harga murah dan jadwal 24 jam";
 $telp = '0882-0068-91597';
@@ -48,9 +48,6 @@ $menu = [
 
 
 $rute = [
-  'Travel Solo Indramayu',
-  'Travel Solo Cirebon',
-
   'Travel Semarang Indramayu',
   'Travel Semarang Cirebon',
 
@@ -63,25 +60,97 @@ $rute = [
   'Travel Semarang Wonosobo',
   'Travel Semarang Banjarnegara',
   'Travel Semarang Kendal',
-  'Travel Semarang Temanggung',
+  'Travel Semarang Batang',
+  'Travel Semarang Solo',
+
+  'Travel Kendal Indramayu',
+  'Travel Kendal Cirebon',
+
+  'Travel Kendal Purwokerto',
+  'Travel Kendal Purbalingga',
+  'Travel Kendal Pemalang',
+  'Travel Kendal Tegal',
+  'Travel Kendal Pekalongan',
+  'Travel Kendal Temanggung',
+  'Travel Kendal Wonosobo',
+  'Travel Kendal Banjarnegara',
+  'Travel Kendal Batang',
+  'Travel Kendal Solo',
+
+  'Travel Solo Indramayu',
+  'Travel Solo Cirebon',
+
+  'Travel Solo Purwokerto',
+  'Travel Solo Purbalingga',
+  'Travel Solo Pemalang',
+  'Travel Solo Tegal',
+  'Travel Solo Pekalongan',
+  'Travel Solo Temanggung',
+  'Travel Solo Wonosobo',
+  'Travel Solo Banjarnegara',
+  'Travel Solo Batang',
+
+  // PP
+
+  'Travel Indramayu Semarang',
+  'Travel Cirebon Semarang',
+
+  'Travel Purwokerto Semarang',
+  'Travel Purbalingga Semarang',
+  'Travel Pemalang Semarang',
+  'Travel Tegal Semarang',
+  'Travel Pekalongan Semarang',
+  'Travel Temanggung Semarang',
+  'Travel Wonosobo Semarang',
+  'Travel Banjarnegara Semarang',
+  'Travel Kendal Semarang',
+  'Travel Batang Semarang',
+  'Travel Solo Semarang',
+
+  'Travel Indramayu Kendal',
+  'Travel Cirebon Kendal',
+
+  'Travel Purwokerto Kendal',
+  'Travel Purbalingga Kendal',
+  'Travel Pemalang Kendal',
+  'Travel Tegal Kendal',
+  'Travel Pekalongan Kendal',
+  'Travel Temanggung Kendal',
+  'Travel Wonosobo Kendal',
+  'Travel Banjarnegara Kendal',
+  'Travel Batang Kendal',
+  'Travel Solo Kendal',
+
+  'Travel Indramayu Solo',
+  'Travel Cirebon Solo',
+
+  'Travel Purwokerto Solo',
+  'Travel Purbalingga Solo',
+  'Travel Pemalang Solo',
+  'Travel Tegal Solo',
+  'Travel Pekalongan Solo',
+  'Travel Temanggung Solo',
+  'Travel Wonosobo Solo',
+  'Travel Banjarnegara Solo',
+  'Travel Batang Solo',
 ];
 
 $kota = [
-  [
-    'Blora',
-    'blora.jpg',
-  ],
   [
     'Semarang',
     'semarang.jpg',
   ],
   [
-    'Magelang',
-    'magelang.jpg',
+    'Tegal',
+    'tegal.jpg',
   ],
   [
-    'Jogja',
-    'jogja.jpg',
+    'Pekalongan',
+    'pekalongan.jpg',
+  ],
+  [
+    'Indramayu',
+    'indramayu.jpg',
   ],
 ];
 
@@ -139,13 +208,13 @@ $galeri = [
 <body class="font-poppins text-slate-700 overflow-x-hidden">
   <header class="">
     <div class="container !py-2">
-      <div class="flex justify-between">
+      <div class="flex justify-between pt-3">
         <div class="grid place-items-center">
           <a href="<?= $domain ?>">
             <img
               loading="lazy"
               src="<?= $domain . $logoPanjang ?>"
-              class="w-12 md:w-14 xl:w-16 m-auto rounded"
+              class="w-20 md:w-24 xl:w-28 rounded"
               alt="logo" />
           </a>
         </div>
